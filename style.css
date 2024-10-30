@@ -29,7 +29,7 @@ section {
     display: flex;
     align-items: center;
     gap: 20px;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 
 .profile-photo {
@@ -37,12 +37,12 @@ section {
     height: 150px;
     border-radius: 50%;
     object-fit: cover;
-    margin-left: auto; /* Menempatkan foto di sebelah kanan */
+    
 }
 
 .me {
-    flex: 1;
-    margin-right: 20px;
+    /*  */
+    margin-right: 60px;
 }
 
 h1, h2 {
