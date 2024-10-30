@@ -1,4 +1,4 @@
-/* Reset */
+
 * {
     margin: 0;
     padding: 0;
@@ -24,7 +24,7 @@ section {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-/* Profile Section Styling */
+
 #profile {
     display: flex;
     align-items: center;
@@ -50,7 +50,7 @@ h1, h2 {
     text-align: center;
 }
 
-/* Skills Section Styling */
+
 #skills ul {
     list-style: none;
     display: flex;
@@ -64,7 +64,7 @@ h1, h2 {
     border-radius: 5px;
 }
 
-/* Portfolio Section Styling */
+
 .projects {
     display: flex;
     flex-direction: column;
@@ -79,11 +79,15 @@ h1, h2 {
     transition: box-shadow 0.3s ease;
 }
 
+.project a {
+    text-decoration: none;
+}
+
 .project:hover {
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.15);
 }
 
-/* Contact Section Styling */
+
 form input, form textarea, form button {
     width: 100%;
     padding: 10px;
